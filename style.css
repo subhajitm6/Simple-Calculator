@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(105, 105, 224), rgb(220, 218, 121));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    height: 600px;
+    width: 460px;
+    background-color: rgb(245, 239, 239);
+    padding: 10px;
+    box-shadow: 5px 5px 15px #e71a1a, -5px -5px 10px #fffefe;
+    border-radius: 10px;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#display{
+    height: 90px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    box-shadow:inset 2px 2px 10px #85d0da, inset -5px -5px 10px #78ef84;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.buttonsgrops{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 18px;
+}
+
+.button{
+    width: 85px;
+    height: 85px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #fafaf4;
+
+}
+
+.button:active{
+    box-shadow: inset 1px 1px 5px #babeec, inset -1px -1px 2px #ffffff;
+}
+
+.button:hover{
+    background-color: red;
+    color: #fafaf4;
+    cursor: pointer;
+}
+
+.btn-equal{
+    background-color: #25d4d7;
+}
+
+.btn-equal:hover{
+    background-color: rgb(38, 204, 115);
+}
+
